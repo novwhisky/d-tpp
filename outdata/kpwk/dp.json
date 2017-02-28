@@ -1,0 +1,9 @@
+{
+  "charts": [
+    { "chartseq": "90100", "chart_name": "JORJO THREE (RNAV)", "pdf_name": "05028JORJO.PDF" },
+    { "chartseq": "90100", "chart_name": "JORJO THREE (RNAV), CONT.1", "pdf_name": "05028JORJO_C.PDF" },
+    { "chartseq": "90100", "chart_name": "MONKZ THREE (RNAV)", "pdf_name": "05028MONKZ.PDF" },
+    { "chartseq": "90100", "chart_name": "MONKZ THREE (RNAV), CONT.1", "pdf_name": "05028MONKZ_C.PDF" },
+    { "chartseq": "90100", "chart_name": "PAL-WAUKEE TWO", "pdf_name": "05028PAL-WAUKEE.PDF" }
+  ]
+}

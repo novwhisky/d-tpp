@@ -1,23 +1,13 @@
 {
-    "MIN": [
+    "charts": [
         { "chartseq": "10100", "chart_name": "TAKEOFF MINIMUMS", "pdf_name": "EC3TO.PDF" },
-        { "chartseq": "10200", "chart_name": "ALTERNATE MINIMUMS", "pdf_name": "EC3ALT.PDF" }
-    ],
-    "LAH": [
-        { "chartseq": "10600", "chart_name": "LAHSO", "pdf_name": "EC3LAHSO.PDF" }
-    ],
-    "HOT": [
-        { "chartseq": "10700", "chart_name": "HOT SPOT", "pdf_name": "EC3HOTSPOT.PDF" }
-    ],
-    "IAP": [
+        { "chartseq": "10200", "chart_name": "ALTERNATE MINIMUMS", "pdf_name": "EC3ALT.PDF" },
+        { "chartseq": "10600", "chart_name": "LAHSO", "pdf_name": "EC3LAHSO.PDF" },
+        { "chartseq": "10700", "chart_name": "HOT SPOT", "pdf_name": "EC3HOTSPOT.PDF" },
         { "chartseq": "50750", "chart_name": "ILS OR LOC RWY 16", "pdf_name": "05028IL16.PDF" },
         { "chartseq": "53525", "chart_name": "RNAV (GPS) RWY 16", "pdf_name": "05028R16.PDF" },
-        { "chartseq": "55800", "chart_name": "VOR RWY 16", "pdf_name": "05028V16.PDF" }
-    ],
-    "APD": [
-        { "chartseq": "70000", "chart_name": "AIRPORT DIAGRAM", "pdf_name": "05028AD.PDF" }
-    ],
-    "DP": [
+        { "chartseq": "55800", "chart_name": "VOR RWY 16", "pdf_name": "05028V16.PDF" },
+        { "chartseq": "70000", "chart_name": "AIRPORT DIAGRAM", "pdf_name": "05028AD.PDF" },
         { "chartseq": "90100", "chart_name": "JORJO THREE (RNAV)", "pdf_name": "05028JORJO.PDF" },
         { "chartseq": "90100", "chart_name": "JORJO THREE (RNAV), CONT.1", "pdf_name": "05028JORJO_C.PDF" },
         { "chartseq": "90100", "chart_name": "MONKZ THREE (RNAV)", "pdf_name": "05028MONKZ.PDF" },

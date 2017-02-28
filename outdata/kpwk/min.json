@@ -1,0 +1,7 @@
+{
+  "charts": [
+    { "chartseq": "10100", "chart_name": "TAKEOFF MINIMUMS", "pdf_name": "EC3TO.PDF" },
+    { "chartseq": "10200", "chart_name": "ALTERNATE MINIMUMS", "pdf_name": "EC3ALT.PDF" }
+
+  ]
+}
