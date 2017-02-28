@@ -1,0 +1,17 @@
+{
+  "name": "d-tpp-decoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nathan Witt <wittnl@gmail.com> (http://wi.tt/)",
+  "license": "ISC",
+  "dependencies": {
+    "pretty-xml": "^1.2.1",
+    "xmldom": "^0.1.27",
+    "xpath.js": "^1.0.7"
+  }
+}
