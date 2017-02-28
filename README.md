@@ -6,5 +6,6 @@
 
 ## Sources
 
-* [d-TPP downloads](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/)
+* [d-TPP gigantic download](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/)
+* [d-TPP single-procedure downloads](http://aeronav.faa.gov/d-tpp/)
 * [XPath examples](https://msdn.microsoft.com/en-us/library/ms256086\(v=vs.110\).aspx)
