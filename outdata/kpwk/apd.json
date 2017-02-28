@@ -1,4 +1,12 @@
 {
+  "meta": {
+    "city_name": "CHICAGO/PROSPECT HEIGHTS/WHEELING",
+    "airport_name": "CHICAGO EXECUTIVE",
+    "military":"N",
+    "apt_ident":"PWK",
+    "icao_ident":"KPWK",
+    "alnum":"5028"
+  },
   "charts": [
     { "chartseq": "70000", "chart_name": "AIRPORT DIAGRAM", "pdf_name": "05028AD.PDF" }
   ]

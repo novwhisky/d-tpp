@@ -1,4 +1,12 @@
 {
+  "meta": {
+    "city_name": "CHICAGO/PROSPECT HEIGHTS/WHEELING",
+    "airport_name": "CHICAGO EXECUTIVE",
+    "military":"N",
+    "apt_ident":"PWK",
+    "icao_ident":"KPWK",
+    "alnum":"5028"
+  },
   "charts": [
     { "chartseq": "50750", "chart_name": "ILS OR LOC RWY 16", "pdf_name": "05028IL16.PDF" },
     { "chartseq": "53525", "chart_name": "RNAV (GPS) RWY 16", "pdf_name": "05028R16.PDF" },
