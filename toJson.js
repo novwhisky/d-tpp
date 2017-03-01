@@ -5,8 +5,9 @@ const fs = require('fs'),
 
 
 
-const stream = fs.createReadStream('./srcdata/d-TPP_Metafile.xml');
-//const stream = fs.createReadStream('./srcdata/dtpp-sample.xml');
+//const stream = fs.createReadStream('./srcdata/d-TPP_Metafile.xml');
+const stream = fs.createReadStream('./srcdata/dtpp-sample.xml');
+
 const xml = new XmlStream(stream);
 const writer = new Writer('./outdata');
 
@@ -44,7 +45,7 @@ function flatten(data) {
             }
         });
 
-        return airports;
+        return airports.reduce((acc, val) => [].concat(acc, val));
     });
 
     return locations;
@@ -58,5 +59,6 @@ xml.on('endElement: state_code', data => {
     //console.log(data);
     //writer.write(data);
     var d = flatten(data);
+    writer.write(d);
 });
 
