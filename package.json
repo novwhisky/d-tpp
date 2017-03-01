@@ -10,6 +10,7 @@
   "author": "Nathan Witt <wittnl@gmail.com> (http://wi.tt/)",
   "license": "ISC",
   "dependencies": {
+    "mkdirp-promise": "^5.0.1",
     "pretty-xml": "^1.2.1",
     "xml-stream": "^0.4.5",
     "xmldom": "^0.1.27",
