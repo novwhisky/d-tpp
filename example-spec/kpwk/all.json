@@ -1,5 +1,7 @@
 {
     "meta": {
+        "state_code": "IL",
+        "state_fullname": "Illinois",
         "city_name": "CHICAGO/PROSPECT HEIGHTS/WHEELING",
         "airport_name": "CHICAGO EXECUTIVE",
         "military":"N",
