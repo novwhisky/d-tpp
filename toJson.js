@@ -16,7 +16,7 @@ function flatten(data) {
     let airports = [];
     const stateObj = data.$;
 
-    data.city_name.map((city, i) => {
+    data.city_name.map(city => {
         const cityObj = city.$;
 
         airports = airports.concat(
@@ -58,8 +58,6 @@ xml.collect('city_name');
 xml.collect('airport_name');
 xml.collect('record');
 xml.on('endElement: state_code', data => {
-    //console.log(data);
-    //writer.write(data);
     var d = flatten(data);
     writer.write(d);
 });
