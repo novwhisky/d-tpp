@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>{{meta.airport_name}}</title>
     <script src="index.js"></script>
+    <style>
+        body { font: 16px/20px Arial, Helvetica, sans-serif; color: #333333 }
+        h1 {text-transform: capitalize;}
+    </style>
 </head>
 <body>
 <h1>{{meta.airport_name}}
@@ -17,7 +21,7 @@
 <a href="../{{meta.apt_ident}}.json">Raw JSON</a>
 <h1>Charts</h1>
 {{#each records}}
-    <p>{{chart_name}}, <a href="http://aeronav.faa.gov/d-tpp/{{../meta.cycle}}/{{pdf_name}}" target="_blank">{{pdf_name}}</a></p>
+    <p><a href="http://aeronav.faa.gov/d-tpp/{{../meta.cycle}}/{{pdf_name}}" target="_blank">{{chart_name}}</a></p>
 {{/each}}
 </body>
 </html>
