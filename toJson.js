@@ -9,7 +9,7 @@ const fs = require('fs'),
 const stream = fs.createReadStream('./srcdata/dtpp-sample.xml');
 
 const xml = new XmlStream(stream);
-const writer = new Writer('./outdata');
+const writer = new Writer('./web');
 
 
 function flatten(data) {

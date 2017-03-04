@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{meta.airport_name}}</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<h1>{{meta.airport_name}}
+    {{#if meta.icao_ident}}({{meta.icao_ident}})
+    {{else}}({{meta.apt_ident}})
+    {{/if}}
+</h1>
+<div>
+
+</div>
+<h1>Charts</h1>
+{{#each records}}
+    <p>{{chart_name}}, {{pdf_name}}</p>
+{{/each}}
+</body>
+</html>
