@@ -14,9 +14,10 @@
 <div>
 
 </div>
+<a href="../{{meta.apt_ident}}.json">Raw JSON</a>
 <h1>Charts</h1>
 {{#each records}}
-    <p>{{chart_name}}, {{pdf_name}}</p>
+    <p>{{chart_name}}, <a href="http://aeronav.faa.gov/d-tpp/{{../meta.cycle}}/{{pdf_name}}" target="_blank">{{pdf_name}}</a></p>
 {{/each}}
 </body>
 </html>
